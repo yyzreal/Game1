@@ -30,6 +30,15 @@
     <ClInclude Include="..\xcommon\XDeclare.h">
       <Filter>xcommon</Filter>
     </ClInclude>
+    <ClInclude Include="..\xcommon\XMutex.h">
+      <Filter>xcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xcommon\XMemCache.h">
+      <Filter>xcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xcommon\XSwapBytes.h">
+      <Filter>xcommon</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

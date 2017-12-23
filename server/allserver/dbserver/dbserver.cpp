@@ -2,7 +2,9 @@
 //
 
 #include "stdafx.h"
-#include "XDeclare.h"
+#include "XMemCache.h"
+
+XMemCache<XAtomMutex>*	g_pMemCache = nullptr;
 
 int main()
 {
